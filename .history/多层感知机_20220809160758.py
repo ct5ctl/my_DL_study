@@ -8,7 +8,7 @@ def init_weights(m):
 
 if __name__ == '__main__':
     # 超参数
-    batch_size = 256
+    batch_size = 8
     lr, num_epochs = 0.1, 10
     # 获取数据迭代器
     train_iter, test_iter = d2l.load_data_fashion_mnist(batch_size=batch_size)
